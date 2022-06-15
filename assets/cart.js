@@ -10,19 +10,6 @@ class CartRemoveButton extends HTMLElement {
 
 customElements.define("cart-remove-button", CartRemoveButton);
 
-class ClearCartButton extends HTMLElement {
-  constructor() {
-    super();
-    this.addEventListener("click", (event) => {
-      event.preventDefault();
-      this.closest("cart-items");
-      // this.closest("cart-items").updateQuantity(this.dataset.index, 0);
-    });
-  }
-}
-
-customElements.define("clear-cart-button", ClearCartButton);
-
 class CartItems extends HTMLElement {
   constructor() {
     super();
