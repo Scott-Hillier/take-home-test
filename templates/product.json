@@ -12,8 +12,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -24,8 +23,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -35,8 +33,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -46,8 +43,11 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
+        },
+        "extra_info": {
+          "type": "text",
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -121,14 +121,11 @@
         "16553386401cc81098-1": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Extra information about the product.<\/em><\/p>"
+            "text": "<p><em>Extra information about the product.</em></p>"
           }
         }
       },
-      "block_order": [
-        "16553386401cc81098-0",
-        "16553386401cc81098-1"
-      ],
+      "block_order": ["16553386401cc81098-0", "16553386401cc81098-1"],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -149,7 +146,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         },
@@ -161,11 +158,7 @@
           }
         }
       },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
+      "block_order": ["heading", "text", "button"],
       "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -209,20 +202,15 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Subscribe to our mailing list for insider news, product launches, and more.<\/p>"
+            "text": "<p>Subscribe to our mailing list for insider news, product launches, and more.</p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
-      "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
-      ],
+      "block_order": ["heading", "paragraph", "email-form"],
       "settings": {
         "color_scheme": "accent-1",
         "full_width": true,
