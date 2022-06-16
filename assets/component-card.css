@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+#product-card {
+  border: 8px solid red;
+}
+
 .card {
   text-align: var(--card-text-alignment);
   text-decoration: none;
@@ -23,7 +27,8 @@
 .card--card,
 .card--standard .card__inner {
   border-radius: var(--card-corner-radius);
-  border: 5px solid red;
+  border: var(--card-border-width) solid
+    rgba(var(--color-foreground), var(--card-border-opacity));
   position: relative;
   box-sizing: border-box;
 }
