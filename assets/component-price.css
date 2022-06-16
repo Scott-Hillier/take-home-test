@@ -26,10 +26,6 @@
   margin-right: 0;
 }
 
-#catalog-price {
-  color: red;
-}
-
 .price:not(.price--show-badge) .price-item--last:last-of-type {
   margin: 0;
 }
